@@ -1,7 +1,9 @@
-package main
+// Copyright 2013 The Gorilla WebSocket Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
 
-import "fmt"
+// +build go1.8
+package f
 
-func main() {
-	fmt.Println("hello world")
+func cloneTLSConfig() {
 }
