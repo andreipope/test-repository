@@ -1,10 +1,10 @@
 inspecode:
   gofmt:
     thresholds:
-      num-issues: 5 
+      num-issues: 1
     options: [-s]
   go-test:
     thresholds:
-      num-issues: 5
+      num-issues: 1
   misspell: default
   golint: default
